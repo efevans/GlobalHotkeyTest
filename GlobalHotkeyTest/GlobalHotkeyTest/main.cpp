@@ -32,6 +32,7 @@ int main()
 		}
 	}
 
+	// unregister the hotkey
 	if (UnregisterHotKey(NULL, HOTKEY_ID))
 	{
 		cout << "Successfully unregistered hotkey" << endl;
